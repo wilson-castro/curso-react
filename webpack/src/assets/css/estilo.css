@@ -1,0 +1,7 @@
+body{
+  background-color: blueviolet;
+  background-image: url(../imgs/Logo_NIKE.svg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
