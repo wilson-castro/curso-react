@@ -7,7 +7,7 @@ export default function Integracao() {
 
   async function obterCliente() { //codigo sincrono
 
-    // function obterCliente() { asincrono fazendo por middleware que interceptam a req.
+    // function obterCliente() { asincrono fazendo por middleware que interceptam a req. e promises
     // fetch(`http://localhost:3000/api/clientes/${cod}`)
     //   .then(resp => resp.json())
     //   .then(dados => setCliente(dados))
