@@ -10,15 +10,17 @@ export default class Cliente {
   }
 
   static vazio() {
-    return new Cliente('', 0,)
+    return new Cliente('', 0)
   }
 
   get id() {
     return this.#id
   }
+
   get nome() {
     return this.#nome
   }
+
   get idade() {
     return this.#idade
   }
